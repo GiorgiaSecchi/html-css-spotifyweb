@@ -98,10 +98,38 @@ img {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* NAVBAR MID */
+
+.navbar-mid {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 5px 15px 5px 15px;
+}
+
+.playlist-header {
+  line-height: 2rem;
+  padding-top: 15px;
+}
+
+.p-h-container {
+  display: flex;
+  align-items: center;
 }
 
 .fa-square-plus {
   color: #a3a3a3;
+  font-size: 3rem;
+  padding-right: 10px;
+}
+
+.playlist-body {
+  line-height: 2rem;
+  font-size: 0.9rem;
+  overflow-y: auto;
 }
 
 /* NAVBAR UNDER */
@@ -190,11 +218,20 @@ img {
   .icon-library {
     display: flex;
     justify-content: flex-start;
+    padding: 5px 15px 5px 15px;
   }
 
   .logo-spotify {
+    padding: 15px;
+    height: 70px;
+    align-items: center;
+  }
+
+  .navbar-mid {
     display: flex;
-    padding: 10px;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5px 15px 5px 15px;
   }
 }
 
