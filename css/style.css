@@ -81,8 +81,11 @@ img {
   overflow: hidden;
 }
 
-.navbar-top .container {
+.navbar .container {
   display: flex;
+}
+
+.container .navbar-up {
 }
 
 .fa-square-plus {
