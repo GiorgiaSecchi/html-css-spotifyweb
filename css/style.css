@@ -47,13 +47,13 @@ img {
 .debug,
 .debug * {
   background-color: lightgrey;
-  border: 2px dashed black;
-  padding: 10px;
-  min-height: 50px;
+  border: 1px dashed black;
+  padding: 5px;
+  min-height: 20px;
 }
 
 .border {
-  border: 2px dashed lightcoral;
+  border: 1px dashed lightcoral;
 }
 
 /* LAYOUT WEBAPP */
