@@ -24,6 +24,10 @@ body {
   min-height: 50px;
 }
 
+.border {
+  border: 2px dashed lightcoral;
+}
+
 /* LAYOUT WEBAPP */
 
 .wrapper {
@@ -71,9 +75,27 @@ body {
   overflow: auto;
 }
 
+#main-content .container {
+  padding: 10px;
+}
+
 /* APP PLAYER */
 
 #app-player {
   height: 120px;
   background-color: #282828;
+}
+
+/***** RESPONSIVE ******/
+
+/* S */
+@media screen and (min-width: 576px) {
+}
+
+/* MD */
+@media screen and (min-width: 768px) {
+}
+
+/* LG */
+@media screen and (min-width: 992px) {
 }
