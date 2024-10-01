@@ -12,7 +12,35 @@ body {
   color: white;
 }
 
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* # UTILS */
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
 
 /* # DEBUG */
 
