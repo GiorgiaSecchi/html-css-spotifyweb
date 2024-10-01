@@ -88,11 +88,35 @@ img {
   justify-content: space-between;
 }
 
-.icon-spotify {
+/* NAVBAR UP */
+
+.icon-spotify,
+.icon-home,
+.icon-search,
+.icon-library {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .fa-square-plus {
   color: #a3a3a3;
+}
+
+/* NAVBAR UNDER */
+
+.icon-download,
+.icon-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.icon-profile {
+  background-color: gray;
+  border-radius: 50%;
 }
 
 /* APP MAIN */
