@@ -154,14 +154,45 @@ img {
 
 /***** RESPONSIVE ******/
 
-/* S */
+/****** S ******/
 @media screen and (min-width: 576px) {
+  /* # UTILS */
+
+  .d-s-none {
+    display: none;
+  }
+
+  .d-s-block {
+    display: block;
+  }
+
+  .d-s-inline {
+    display: inline;
+  }
+
+  /* NAVBAR */
+  #navbar {
+    width: 200px;
+  }
+
+  .icon-spotify {
+    display: none;
+  }
+
+  .logo-spotify {
+    display: flex;
+  }
+
+  .navbar-up > svg {
+    height: 30px;
+    padding-right: 10px;
+  }
 }
 
-/* MD */
+/****** MD ******/
 @media screen and (min-width: 768px) {
 }
 
-/* LG */
+/****** LG ******/
 @media screen and (min-width: 992px) {
 }
