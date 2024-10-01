@@ -179,13 +179,22 @@ img {
     display: none;
   }
 
-  .logo-spotify {
-    display: flex;
-  }
-
-  .navbar-up > svg {
+  svg {
     height: 30px;
     padding-right: 10px;
+  }
+
+  .logo-spotify,
+  .icon-home,
+  .icon-search,
+  .icon-library {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo-spotify {
+    display: flex;
+    padding: 10px;
   }
 }
 
