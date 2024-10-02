@@ -231,15 +231,15 @@ img {
 
 .playing-album {
   display: flex;
-  width: 70px;
+  width: 30%;
 }
 
 .playing-info {
-  width: 100%;
+  width: 50%;
 }
 
 .playing-title {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: white;
 }
 
