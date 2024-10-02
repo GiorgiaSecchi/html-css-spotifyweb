@@ -162,7 +162,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
+}
+
+.navbar-under .icon-profile .profile-pic-container {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  overflow: hidden;
+  padding: 5px;
 }
 
 /* APP MAIN */
