@@ -226,11 +226,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .playing-album {
-  width: 60px;
   display: flex;
+  width: 60%;
+}
+
+.playing-info {
+  width: 100%;
 }
 
 .playing-title {
@@ -241,6 +246,12 @@ img {
 .playing-song {
   font-size: 0.7rem;
   color: gray;
+}
+
+.sx-icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .fa-heart,
