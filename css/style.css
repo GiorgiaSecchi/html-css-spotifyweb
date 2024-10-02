@@ -80,6 +80,7 @@ img {
   background-color: black;
   overflow: hidden;
   min-height: 350px;
+  cursor: pointer;
 }
 
 .navbar-container {
@@ -103,13 +104,6 @@ img {
 }
 
 /* NAVBAR MID */
-
-/* .navbar-mid {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  padding: 5px 15px 5px 15px;
-} */
 
 .playlist-header,
 .playlist-body {
@@ -138,12 +132,6 @@ img {
   border: none;
   font-size: 1.2rem;
 }
-
-/* .fa-square-plus {
-  color: #a3a3a3;
-  font-size: 3rem;
-  padding-right: 10px;
-} */
 
 .playlist-body {
   line-height: 2rem;
@@ -235,7 +223,7 @@ img {
     display: none;
   }
 
-  svg {
+  #navbar svg {
     height: 30px;
     padding-right: 10px;
   }
@@ -272,6 +260,11 @@ img {
 
   .playlist-body {
     min-height: 100px;
+  }
+
+  .icon-download,
+  .icon-profile {
+    justify-content: start;
   }
 }
 
