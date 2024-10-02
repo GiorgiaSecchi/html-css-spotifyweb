@@ -231,7 +231,7 @@ img {
 
 .playing-album {
   display: flex;
-  width: 30%;
+  width: 45px;
 }
 
 .playing-info {
@@ -443,6 +443,19 @@ img {
 
   #navbar .icon-profile {
     color: white;
+  }
+
+  /* APP PLAYER */
+
+  /* SX PLAYER */
+
+  .playing-album {
+    display: flex;
+    width: 70px;
+  }
+
+  .playing-info {
+    width: 70%;
   }
 }
 
