@@ -216,6 +216,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 
 /* SX PLAYER */
@@ -224,6 +226,27 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.playing-album {
+  width: 60px;
+  display: flex;
+}
+
+.playing-title {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.playing-song {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.fa-heart,
+.fa-folder {
+  color: gray;
+  font-size: 1rem;
 }
 
 /* PLAYBACK */
