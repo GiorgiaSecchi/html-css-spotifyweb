@@ -218,6 +218,14 @@ img {
   align-items: center;
 }
 
+/* PLAYING SONG CONTAINER */
+
+.playing-song-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* PLAYBACK CONTAINER */
 
 .playback-container {
