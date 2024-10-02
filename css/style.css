@@ -218,18 +218,18 @@ img {
   align-items: center;
 }
 
-/* PLAYING SONG CONTAINER */
+/* SX PLAYER */
 
-.playing-song-container {
+.sx-player-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* PLAYBACK CONTAINER */
+/* PLAYBACK */
 
 .playback-container {
-  width: 40%;
+  width: 100%;
 
   display: flex;
   justify-content: space-between;
@@ -241,7 +241,6 @@ img {
 /* PLAYBACK ICON */
 
 .playback-icon {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -274,6 +273,20 @@ img {
   height: 100%;
   background-color: white;
   border-radius: 2px;
+}
+
+/* DX PLAYER */
+
+.dx-player-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dx-player-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /***** RESPONSIVE ******/
