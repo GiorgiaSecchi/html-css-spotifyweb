@@ -79,6 +79,7 @@ img {
   padding: 10px 0;
   background-color: black;
   overflow: hidden;
+  min-height: 350px;
 }
 
 .navbar-container {
@@ -103,10 +104,17 @@ img {
 
 /* NAVBAR MID */
 
-.navbar-mid {
+/* .navbar-mid {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  padding: 5px 15px 5px 15px;
+} */
+
+.playlist-header,
+.playlist-body {
+  /* display: flex; */
+  flex-direction: column;
   padding: 5px 15px 5px 15px;
 }
 
@@ -118,13 +126,24 @@ img {
 .p-h-container {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
-.fa-square-plus {
+.playlist-header .btn-playlist-add {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #a3a3a3;
+  border: none;
+  font-size: 1.2rem;
+}
+
+/* .fa-square-plus {
   color: #a3a3a3;
   font-size: 3rem;
   padding-right: 10px;
-}
+} */
 
 .playlist-body {
   line-height: 2rem;
@@ -134,17 +153,16 @@ img {
 
 /* NAVBAR UNDER */
 
+.navbar-under {
+  margin-top: auto;
+}
+
 .icon-download,
 .icon-profile {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px;
-}
-
-.icon-profile {
-  background-color: gray;
-  border-radius: 50%;
 }
 
 /* APP MAIN */
@@ -182,25 +200,26 @@ img {
 
 /***** RESPONSIVE ******/
 
-/****** S ******/
+/****** SM ******/
 @media screen and (min-width: 576px) {
   /* # UTILS */
 
-  .d-s-none {
+  .d-sm-none {
     display: none;
   }
 
-  .d-s-block {
+  .d-sm-block {
     display: block;
   }
 
-  .d-s-inline {
+  .d-sm-inline {
     display: inline;
   }
 
   /* NAVBAR */
   #navbar {
     width: 200px;
+    overflow-y: auto;
   }
 
   .icon-spotify {
@@ -227,11 +246,23 @@ img {
     align-items: center;
   }
 
-  .navbar-mid {
+  /* .navbar-mid {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     padding: 5px 15px 5px 15px;
+    overflow-y: scroll;
+  } */
+
+  .playlist-header,
+  .playlist-body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px 5px 15px;
+  }
+
+  .playlist-body {
+    min-height: 100px;
   }
 }
 
