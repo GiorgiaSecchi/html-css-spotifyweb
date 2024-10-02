@@ -68,7 +68,7 @@ img {
 
 #app-top {
   display: flex;
-  height: calc(100% - 120px);
+  height: calc(100% - 100px);
 }
 
 /* NAVBAR */
@@ -210,13 +210,13 @@ img {
 /* APP PLAYER */
 
 #app-player {
-  height: 120px;
+  height: 100px;
   background-color: #282828;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 0 10px 15px;
   gap: 10px;
 }
 
@@ -231,7 +231,7 @@ img {
 
 .playing-album {
   display: flex;
-  width: 60%;
+  width: 70px;
 }
 
 .playing-info {
@@ -276,8 +276,14 @@ img {
 
 .playback-icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.fa-circle-play {
+  font-size: 1.9rem;
 }
 
 /* PROGRESS BAR */
@@ -290,6 +296,8 @@ img {
   align-items: center;
   flex-direction: row;
   gap: 15px;
+
+  font-size: 0.6rem;
 }
 
 .progress-bar-container > .progress-bar {
