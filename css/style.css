@@ -81,6 +81,8 @@ img {
   overflow: hidden;
   min-height: 350px;
   cursor: pointer;
+
+  color: gray;
 }
 
 .navbar-container {
@@ -88,6 +90,22 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#navbar .navbar-up > div:hover {
+  color: white;
+}
+
+#navbar .playlist-header:hover {
+  color: white;
+}
+
+#navbar .playlist-list > li:hover {
+  color: white;
+}
+
+#navbar .navbar-under > div:hover {
+  color: white;
 }
 
 /* NAVBAR UP */
@@ -103,7 +121,7 @@ img {
   font-size: 0.9rem;
 }
 
-/* NAVBAR MID */
+/* NAVBAR PLAYLIST */
 
 .playlist-header,
 .playlist-body {
@@ -143,6 +161,7 @@ img {
 
 .navbar-under {
   margin-top: auto;
+  font-size: 0.9rem;
 }
 
 .icon-download,
@@ -214,18 +233,21 @@ img {
   }
 
   /* NAVBAR */
+
   #navbar {
     width: 200px;
     overflow-y: auto;
   }
 
-  .icon-spotify {
-    display: none;
-  }
-
   #navbar svg {
     height: 30px;
     padding-right: 10px;
+  }
+
+  /* NAVBAR UP */
+
+  .icon-spotify {
+    display: none;
   }
 
   .logo-spotify,
@@ -251,20 +273,38 @@ img {
     overflow-y: scroll;
   } */
 
+  /* NAVBAR PLAYLIST */
+
   .playlist-header,
   .playlist-body {
     display: flex;
     flex-direction: column;
-    padding: 5px 15px 5px 15px;
+    padding: 10px 15px 6px 15px;
+  }
+
+  .playlist-header p:first-child {
+    color: white;
   }
 
   .playlist-body {
     min-height: 100px;
   }
 
+  /* NAVBAR UNDER */
+
   .icon-download,
   .icon-profile {
     justify-content: start;
+    gap: 10px;
+  }
+
+  #navbar .icon-download {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+  }
+
+  #navbar .icon-profile {
+    color: white;
   }
 }
 
