@@ -214,6 +214,58 @@ img {
   background-color: #282828;
 
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* PLAYBACK CONTAINER */
+
+.playback-container {
+  width: 40%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* PLAYBACK ICON */
+
+.playback-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* PROGRESS BAR */
+
+.progress-bar-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.progress-bar-container > .progress-bar {
+  flex-grow: 1;
+  max-width: 300px;
+  min-width: 100px;
+
+  height: 4px;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+.progress-bar-container > .progress-bar > .progress {
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
 }
 
 /***** RESPONSIVE ******/
