@@ -217,7 +217,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px 15px;
-  gap: 10px;
+  gap: 15px;
 }
 
 /* SX PLAYER */
@@ -227,6 +227,8 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
+
+  cursor: pointer;
 }
 
 .playing-album {
@@ -252,12 +254,22 @@ img {
   display: flex;
   flex-direction: column;
   gap: 2px;
+
+  cursor: pointer;
 }
 
 .fa-heart,
 .fa-folder {
   color: gray;
   font-size: 1rem;
+}
+
+#app-player .fa-heart:hover {
+  color: white;
+}
+
+#app-player .fa-folder:hover {
+  color: white;
 }
 
 /* PLAYBACK */
@@ -276,10 +288,13 @@ img {
 
 .playback-icon {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
   width: 100%;
   font-size: 1rem;
+
+  cursor: pointer;
 }
 
 .fa-circle-play {
@@ -292,17 +307,19 @@ img {
   width: 100%;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   gap: 15px;
 
   font-size: 0.6rem;
+
+  cursor: pointer;
 }
 
 .progress-bar-container > .progress-bar {
   flex-grow: 1;
-  max-width: 300px;
+  max-width: 500px;
   min-width: 100px;
 
   height: 4px;
@@ -311,7 +328,7 @@ img {
 }
 
 .progress-bar-container > .progress-bar > .progress {
-  width: 30%;
+  width: 20%;
   height: 100%;
   background-color: white;
   border-radius: 2px;
@@ -324,21 +341,22 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .dx-player-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 
   font-size: 0.8rem;
 }
 
 .volume-bar {
   flex-grow: 1;
-  max-width: 300px;
-  min-width: 100px;
+  /* max-width: 150px; */
+  min-width: 70px;
 
   height: 4px;
   background-color: gray;
@@ -450,7 +468,6 @@ img {
   /* SX PLAYER */
 
   .playing-album {
-    display: flex;
     width: 70px;
   }
 
@@ -461,6 +478,16 @@ img {
 
 /****** MD ******/
 @media screen and (min-width: 768px) {
+  /* APP PLAYER */
+
+  #app-player {
+    gap: 70px;
+  }
+
+  .sx-icon-container {
+    flex-direction: row;
+    gap: 15px;
+  }
 }
 
 /****** LG ******/
