@@ -251,7 +251,7 @@ img {
 .sx-icon-container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
 }
 
 .fa-heart,
@@ -323,12 +323,33 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 .dx-player-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+
+  font-size: 0.8rem;
+}
+
+.volume-bar {
+  flex-grow: 1;
+  max-width: 300px;
+  min-width: 100px;
+
+  height: 4px;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+.volume-bar > .volume-level {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
 }
 
 /***** RESPONSIVE ******/
