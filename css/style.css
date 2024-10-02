@@ -212,6 +212,8 @@ img {
 #app-player {
   height: 120px;
   background-color: #282828;
+
+  display: flex;
 }
 
 /***** RESPONSIVE ******/
@@ -235,7 +237,7 @@ img {
   /* NAVBAR */
 
   #navbar {
-    width: 200px;
+    width: 250px;
     overflow-y: auto;
   }
 
