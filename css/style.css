@@ -271,12 +271,17 @@ h5 {
   color: gray;
   font-size: 0.7rem;
   font-weight: bold;
-  padding: 0px 10px;
+  margin: 0 10px;
+  border-bottom: 3px solid transparent;
 }
 
 .link-categories a:hover {
   color: white;
   cursor: pointer;
+}
+
+.link-categories a:active {
+  border-color: lime;
 }
 
 /* RECENTLY PLAYED */
