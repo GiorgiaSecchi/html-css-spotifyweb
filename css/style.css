@@ -480,7 +480,7 @@ img {
   /* SX PLAYER */
 
   .playing-album {
-    width: 70px;
+    width: 60px;
   }
 
   .playing-info {
@@ -497,14 +497,23 @@ img {
     padding: 0 15px 0px;
   }
 
+  /* SX PLAYER */
+
+  .playing-album {
+    width: 80px;
+  }
+
   .sx-icon-container {
     flex-direction: row;
     gap: 15px;
+    margin-left: 15px;
   }
 }
 
 /****** LG ******/
 @media screen and (min-width: 992px) {
+  /* APP PLAYER */
+
   #app-player {
     padding: 0 20px 0px;
   }
