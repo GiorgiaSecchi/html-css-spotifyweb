@@ -504,6 +504,14 @@ h5 {
 
 /***** RESPONSIVE ******/
 
+@media screen and (min-width: 530px) {
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 90px;
+    left: 90px;
+  }
+}
+
 /****** SM ******/
 @media screen and (min-width: 576px) {
   /* # UTILS */
@@ -685,8 +693,8 @@ h5 {
 
   /* CARD HOVER BUTTON */
   .card-play-btn {
-    top: 90px;
-    left: 90px;
+    top: 30px;
+    left: 30px;
   }
 
   /* SX PLAYER */
@@ -726,15 +734,27 @@ h5 {
     font-size: 0.6rem;
   }
 
-  /* CARD HOVER BUTTON */
-  .card-play-btn {
-    top: 120px;
-    left: 120px;
-  }
-
   /* APP PLAYER */
 
   #app-player {
     padding: 0 20px 0px;
+  }
+}
+
+/****** XL ******/
+@media screen and (min-width: 1200px) {
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 45px;
+    left: 45px;
+  }
+}
+
+/****** XXL ******/
+@media screen and (min-width: 1400px) {
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 60px;
+    left: 60px;
   }
 }
