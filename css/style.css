@@ -216,7 +216,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px 15px;
+  padding: 0 10px 0px;
   gap: 15px;
 }
 
@@ -457,10 +457,22 @@ img {
   #navbar .icon-download {
     border-bottom: 1px solid gray;
     padding-bottom: 0.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #navbar .navbar-under svg {
+    padding: 0;
   }
 
   #navbar .icon-profile {
     color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar-under .icon-profile .profile-pic-container {
+    padding: 2px;
   }
 
   /* APP PLAYER */
@@ -482,6 +494,7 @@ img {
 
   #app-player {
     gap: 70px;
+    padding: 0 15px 0px;
   }
 
   .sx-icon-container {
@@ -492,4 +505,7 @@ img {
 
 /****** LG ******/
 @media screen and (min-width: 992px) {
+  #app-player {
+    padding: 0 20px 0px;
+  }
 }
