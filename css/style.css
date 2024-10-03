@@ -611,6 +611,10 @@ h5 {
     width: 25%;
   }
 
+  h2 {
+    font-size: 1.4rem;
+  }
+
   h4 {
     font-size: 0.9rem;
   }
@@ -648,6 +652,10 @@ h5 {
 
   #main-content .card {
     width: 16%;
+  }
+
+  h2 {
+    font-size: 1.3rem;
   }
 
   h4 {
