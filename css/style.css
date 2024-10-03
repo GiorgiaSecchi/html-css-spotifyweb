@@ -255,7 +255,7 @@ h5 {
 .link-categories-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
   min-height: 50px;
 }
@@ -272,6 +272,11 @@ h5 {
   font-size: 0.7rem;
   font-weight: bold;
   padding: 0px 10px;
+}
+
+.link-categories a:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /* RECENTLY PLAYED */
