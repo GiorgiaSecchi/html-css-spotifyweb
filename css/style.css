@@ -221,6 +221,8 @@ img {
   color: white;
   text-align: center;
   text-decoration: none;
+
+  cursor: pointer;
 }
 
 /* MAIN CONTENT */
@@ -551,6 +553,19 @@ h5 {
     display: flex;
     justify-content: flex-start;
     padding: 5px 15px 5px 15px;
+    margin: 10px 5px 10px 5px;
+  }
+
+  .icon-home,
+  .icon-search,
+  .icon-library {
+    border-left: 3px solid transparent;
+  }
+
+  .icon-home:active,
+  .icon-search:active,
+  .icon-library:active {
+    border-color: lime;
   }
 
   .logo-spotify {
