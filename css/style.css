@@ -455,6 +455,24 @@ img {
 
 /***** RESPONSIVE ******/
 
+/****** MOBILE L ******/
+@media screen and (min-width: 445px) {
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 60px;
+    left: 60px;
+  }
+}
+
+/****** XS ******/
+@media screen and (min-width: 540px) {
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 80px;
+    left: 80px;
+  }
+}
+
 /****** SM ******/
 @media screen and (min-width: 576px) {
   /* # UTILS */
@@ -469,6 +487,14 @@ img {
 
   .d-sm-inline {
     display: inline;
+  }
+
+  /* MAIN */
+
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 40px;
+    left: 40px;
   }
 
   /* NAVBAR */
@@ -591,6 +617,12 @@ img {
     padding: 0 15px 0px;
   }
 
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 90px;
+    left: 90px;
+  }
+
   /* SX PLAYER */
 
   .playing-album {
@@ -606,6 +638,12 @@ img {
 
 /****** LG ******/
 @media screen and (min-width: 992px) {
+  /* CARD HOVER BUTTON */
+  .card-play-btn {
+    top: 120px;
+    left: 120px;
+  }
+
   /* APP PLAYER */
 
   #app-player {
