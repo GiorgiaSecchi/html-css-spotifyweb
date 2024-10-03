@@ -421,6 +421,10 @@ img {
     align-items: center;
   }
 
+  #navbar .logo-spotify svg {
+    height: 40px;
+  }
+
   /* .navbar-mid {
     display: flex;
     flex-direction: column;
