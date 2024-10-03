@@ -20,6 +20,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 img {
   max-width: 100%;
 }
@@ -243,6 +248,22 @@ h4 {
 h5 {
   font-size: 0.8rem;
   color: gray;
+}
+
+/* LINK CATEGORIE */
+
+.link-categories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 50px;
+}
+
+.link-categories {
+  color: gray;
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 
 /* RECENTLY PLAYED */
@@ -611,6 +632,10 @@ h5 {
 
   #main-content .card {
     width: 25%;
+  }
+
+  .main-container {
+    padding: 20px;
   }
 
   h2 {
