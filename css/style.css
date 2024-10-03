@@ -217,23 +217,33 @@ img {
   padding: 10px;
 }
 
-.cards-container {
+#main-content .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   row-gap: 15px;
 }
 
-.card {
+#main-content .card {
   width: 50%;
   padding-right: 10px;
+}
+
+#main-content .card-info {
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 #main-content .card-title,
 .card-subtitle {
   text-align: center;
   padding: 5px 0 5px 0;
+}
+
+#main-content .card-subtitle {
+  font-size: 0.8rem;
+  color: gray;
 }
 
 /* APP PLAYER */
