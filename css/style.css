@@ -241,6 +241,8 @@ img {
   font-weight: bold;
 }
 
+/* RECENTLY - CARDS ALBUM */
+
 #main-content .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -253,20 +255,6 @@ img {
   width: 50%;
   padding-right: 10px;
   padding-left: 10px;
-}
-
-.card-play-btn {
-  display: block;
-  text-align: center;
-  position: relative;
-}
-
-.card:hover .card-img .card-play-btn {
-  display: block;
-}
-
-.card:hover .card-img img {
-  opacity: 5;
 }
 
 #main-content .card-info {
@@ -283,6 +271,27 @@ img {
 #main-content .card-subtitle {
   font-size: 0.8rem;
   color: gray;
+}
+
+/* CARD HOVER BUTTON */
+
+.card-img {
+  position: relative;
+}
+
+.card-play-btn {
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+}
+
+.card:hover .card-img .card-play-btn {
+  display: block;
+}
+
+.card-img:hover img {
+  opacity: 0.5;
 }
 
 /* APP PLAYER */
