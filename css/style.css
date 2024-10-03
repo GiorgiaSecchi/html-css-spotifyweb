@@ -261,6 +261,12 @@ h5 {
 }
 
 .link-categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link-categories > a {
   color: gray;
   font-size: 0.7rem;
   font-weight: bold;
