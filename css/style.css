@@ -243,7 +243,6 @@ h4 {
 h5 {
   font-size: 0.8rem;
   color: gray;
-  padding-bottom: 30px;
 }
 
 /* RECENTLY PLAYED */
@@ -256,12 +255,15 @@ h5 {
   justify-content: flex-start;
   align-items: flex-start;
   row-gap: 15px;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #main-content .card {
   width: 50%;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 10px;
+  /* padding-left: 5px; */
 }
 
 #main-content .card-info {
@@ -646,9 +648,9 @@ h5 {
 @media screen and (min-width: 992px) {
   /* MAIN */
 
-  #main-content .recently-played > .cards-container {
+  /* #main-content .recently-played > .cards-container {
     justify-content: space-evenly;
-  }
+  } */
 
   #main-content .card {
     width: 16%;
