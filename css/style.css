@@ -235,6 +235,17 @@ h2 {
   font-weight: bold;
 }
 
+h4 {
+  font-size: 1rem;
+  color: white;
+}
+
+h5 {
+  font-size: 0.8rem;
+  color: gray;
+  padding-bottom: 30px;
+}
+
 /* RECENTLY PLAYED */
 
 /* RECENTLY - CARDS ALBUM */
@@ -261,16 +272,6 @@ h2 {
 .card-subtitle {
   text-align: center;
   padding: 5px 0 5px 0;
-}
-
-#main-content .card-title {
-  font-size: 1rem;
-  color: white;
-}
-
-#main-content .card-subtitle {
-  font-size: 0.8rem;
-  color: gray;
 }
 
 .popular-artist .circle-img {
@@ -610,11 +611,11 @@ h2 {
     width: 25%;
   }
 
-  #main-content .card-title {
+  h4 {
     font-size: 0.9rem;
   }
 
-  #main-content .card-subtitle {
+  h5 {
     font-size: 0.7rem;
   }
 
@@ -641,7 +642,7 @@ h2 {
 @media screen and (min-width: 992px) {
   /* MAIN */
 
-  #main-content .cards-container {
+  #main-content .recently-played > .cards-container {
     justify-content: space-evenly;
   }
 
@@ -649,11 +650,11 @@ h2 {
     width: 16%;
   }
 
-  #main-content .card-title {
+  h4 {
     font-size: 0.8rem;
   }
 
-  #main-content .card-subtitle {
+  h5 {
     font-size: 0.6rem;
   }
 
