@@ -194,10 +194,28 @@ img {
 /* MAIN TOP BAR */
 
 #main-top-bar {
+  /* line-height: 120px;
+  text-align: right; */
   height: 120px;
-  line-height: 120px;
-  text-align: right;
   background-color: #0d0f14;
+
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-upgrade {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* MAIN CONTENT */
@@ -533,6 +551,13 @@ img {
 
   .navbar-under .icon-profile .profile-pic-container {
     padding: 2px;
+  }
+
+  /* MAIN TOP BAR */
+
+  #main-top-bar {
+    height: 90px;
+    padding: 10px;
   }
 
   /* APP PLAYER */
