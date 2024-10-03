@@ -671,6 +671,12 @@ h5 {
 
   /* MAIN */
 
+  /* LINK CATEGORIE */
+
+  .link-categories-container {
+    min-height: 70px;
+  }
+
   #main-content .card {
     width: 25%;
   }
@@ -717,6 +723,12 @@ h5 {
   /* #main-content .recently-played > .cards-container {
     justify-content: space-evenly;
   } */
+
+  /* LINK CATEGORIE */
+
+  .link-categories-container {
+    min-height: 50px;
+  }
 
   #main-content .card {
     width: 16%;
