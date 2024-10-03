@@ -253,8 +253,8 @@ img {
 
 #main-content .card {
   width: 50%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 #main-content .card-info {
@@ -284,6 +284,7 @@ img {
   position: absolute;
   top: 75px;
   left: 75px;
+  cursor: pointer;
 }
 
 .card:hover .card-img .card-play-btn {
@@ -615,6 +616,12 @@ img {
   #app-player {
     gap: 70px;
     padding: 0 15px 0px;
+  }
+
+  /* MAIN */
+
+  #main-content .card {
+    width: 25%;
   }
 
   /* CARD HOVER BUTTON */
