@@ -225,21 +225,17 @@ img {
   overflow: auto;
 }
 
-#main-content .main-container {
-  padding: 10px;
+.main-container {
+  padding: 15px;
 }
 
-/* RECENTLY PLAYED */
-
-.recently-played {
-  padding: 10px;
-}
-
-.recently-played > h2 {
-  padding: 10px;
+h2 {
+  padding: 10px 0;
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+/* RECENTLY PLAYED */
 
 /* RECENTLY - CARDS ALBUM */
 
@@ -275,6 +271,10 @@ img {
 #main-content .card-subtitle {
   font-size: 0.8rem;
   color: gray;
+}
+
+.popular-artist .circle-img {
+  border-radius: 50%;
 }
 
 /* CARD HOVER BUTTON */
@@ -460,24 +460,6 @@ img {
 
 /***** RESPONSIVE ******/
 
-/****** MOBILE L ******/
-@media screen and (min-width: 445px) {
-  /* CARD HOVER BUTTON */
-  .card-play-btn {
-    top: 60px;
-    left: 60px;
-  }
-}
-
-/****** XS ******/
-@media screen and (min-width: 540px) {
-  /* CARD HOVER BUTTON */
-  .card-play-btn {
-    top: 80px;
-    left: 80px;
-  }
-}
-
 /****** SM ******/
 @media screen and (min-width: 576px) {
   /* # UTILS */
@@ -498,8 +480,8 @@ img {
 
   /* CARD HOVER BUTTON */
   .card-play-btn {
-    top: 40px;
-    left: 40px;
+    top: 50px;
+    left: 50px;
   }
 
   /* NAVBAR */
