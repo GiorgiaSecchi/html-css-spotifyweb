@@ -258,7 +258,6 @@ img {
 }
 
 #main-content .card-info {
-  padding-top: 10px;
   font-weight: bold;
 }
 
@@ -266,6 +265,11 @@ img {
 .card-subtitle {
   text-align: center;
   padding: 5px 0 5px 0;
+}
+
+#main-content .card-title {
+  font-size: 1rem;
+  color: white;
 }
 
 #main-content .card-subtitle {
@@ -624,6 +628,14 @@ img {
     width: 25%;
   }
 
+  #main-content .card-title {
+    font-size: 0.9rem;
+  }
+
+  #main-content .card-subtitle {
+    font-size: 0.7rem;
+  }
+
   /* CARD HOVER BUTTON */
   .card-play-btn {
     top: 90px;
@@ -645,6 +657,24 @@ img {
 
 /****** LG ******/
 @media screen and (min-width: 992px) {
+  /* MAIN */
+
+  #main-content .cards-container {
+    justify-content: space-evenly;
+  }
+
+  #main-content .card {
+    width: 16%;
+  }
+
+  #main-content .card-title {
+    font-size: 0.8rem;
+  }
+
+  #main-content .card-subtitle {
+    font-size: 0.6rem;
+  }
+
   /* CARD HOVER BUTTON */
   .card-play-btn {
     top: 120px;
