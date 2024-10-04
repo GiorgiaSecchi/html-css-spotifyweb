@@ -779,6 +779,12 @@ h5 {
     font-size: 0.9rem;
     margin: 0 20px;
   }
+
+  /* MAIN CONTENT */
+  #main-content .card-info {
+    padding-top: 10px;
+  }
+
   /* CARD HOVER BUTTON */
   .card-play-btn {
     top: 110px;
