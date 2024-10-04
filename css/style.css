@@ -770,6 +770,12 @@ h5 {
     padding: 30px;
   }
 
+  /* MAIN CONTENT */
+
+  h5 {
+    font-size: 0.8rem;
+  }
+
   /* CARD HOVER BUTTON */
   .card-play-btn {
     top: 60px;
