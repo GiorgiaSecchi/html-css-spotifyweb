@@ -769,6 +769,15 @@ h5 {
     top: 60px;
     left: 60px;
   }
+
+  /* APP PLAYER */
+
+  .playing-album {
+    width: 110px;
+  }
+  .volume-bar {
+    min-width: 100px;
+  }
 }
 
 /****** 2048px ******/
