@@ -764,6 +764,12 @@ h5 {
 
 /****** XXL ******/
 @media screen and (min-width: 1400px) {
+  /* MAIN TOP BAR */
+
+  #main-top-bar {
+    padding: 30px;
+  }
+
   /* CARD HOVER BUTTON */
   .card-play-btn {
     top: 60px;
@@ -774,6 +780,11 @@ h5 {
 
   .playing-album {
     width: 110px;
+  }
+
+  .dx-player-icon {
+    gap: 30px;
+    font-size: 0.9rem;
   }
   .volume-bar {
     min-width: 100px;
