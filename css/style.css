@@ -9,7 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 
   background-color: #151922;
@@ -773,6 +773,12 @@ h5 {
 
 /****** 2048px ******/
 @media screen and (min-width: 2048px) {
+  /* MAIN TOP BAR */
+
+  .link-categories > a {
+    font-size: 0.9rem;
+    margin: 0 20px;
+  }
   /* CARD HOVER BUTTON */
   .card-play-btn {
     top: 110px;
